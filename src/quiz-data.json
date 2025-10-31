@@ -1,0 +1,303 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "word": "substantiate",
+      "definition": "back up with evidence",
+      "sentence": "The lawyer asked the witness to _____ her testimony with physical evidence from the crime scene.",
+      "correctAnswer": "substantiate",
+      "options": ["substantiate", "corroborate", "refute", "scrutinize"]
+    },
+    {
+      "id": 2,
+      "word": "corroborate",
+      "definition": "confirm what someone else said",
+      "sentence": "Security camera footage helped _____ the employee's account of what happened during the robbery.",
+      "correctAnswer": "corroborate",
+      "options": ["corroborate", "substantiate", "advocate", "elucidate"]
+    },
+    {
+      "id": 3,
+      "word": "refute",
+      "definition": "prove something wrong",
+      "sentence": "The defense attorney used DNA evidence to _____ the prosecution's theory of the crime.",
+      "correctAnswer": "refute",
+      "options": ["refute", "substantiate", "denounce", "scrutinize"]
+    },
+    {
+      "id": 4,
+      "word": "advocate",
+      "definition": "argue for something",
+      "sentence": "Environmental groups continue to _____ for stronger regulations on industrial pollution.",
+      "correctAnswer": "advocate",
+      "options": ["advocate", "condemn", "bolster", "facilitate"]
+    },
+    {
+      "id": 5,
+      "word": "scrutinize",
+      "definition": "look at something really carefully",
+      "sentence": "Investigators will _____ the company's financial records for any signs of fraud.",
+      "correctAnswer": "scrutinize",
+      "options": ["scrutinize", "discern", "synthesize", "extrapolate"]
+    },
+    {
+      "id": 6,
+      "word": "nuanced",
+      "definition": "has subtle differences, not black and white",
+      "sentence": "The judge's ruling reflected a _____ understanding of constitutional law that acknowledged competing interests.",
+      "correctAnswer": "nuanced",
+      "options": ["nuanced", "ambiguous", "pragmatic", "dogmatic"]
+    },
+    {
+      "id": 7,
+      "word": "ambiguous",
+      "definition": "could mean multiple things",
+      "sentence": "The contract's _____ wording led both parties to interpret their obligations differently.",
+      "correctAnswer": "ambiguous",
+      "options": ["ambiguous", "enigmatic", "candid", "nuanced"]
+    },
+    {
+      "id": 8,
+      "word": "candid",
+      "definition": "brutally honest",
+      "sentence": "During the exit interview, the departing employee gave a _____ assessment of the company's management problems.",
+      "correctAnswer": "candid",
+      "options": ["candid", "pragmatic", "impartial", "skeptical"]
+    },
+    {
+      "id": 9,
+      "word": "pragmatic",
+      "definition": "focused on what actually works",
+      "sentence": "The mayor took a _____ approach to homelessness, prioritizing immediate shelter over long-term policy debates.",
+      "correctAnswer": "pragmatic",
+      "options": ["pragmatic", "dogmatic", "resilient", "meticulous"]
+    },
+    {
+      "id": 10,
+      "word": "meticulous",
+      "definition": "obsessively careful",
+      "sentence": "The architect's _____ attention to structural details prevented costly errors during construction.",
+      "correctAnswer": "meticulous",
+      "options": ["meticulous", "tenacious", "pragmatic", "resilient"]
+    },
+    {
+      "id": 11,
+      "word": "synthesize",
+      "definition": "combine separate ideas into a whole",
+      "sentence": "The historian had to _____ information from multiple conflicting accounts to reconstruct what actually happened.",
+      "correctAnswer": "synthesize",
+      "options": ["synthesize", "extrapolate", "elucidate", "discern"]
+    },
+    {
+      "id": 12,
+      "word": "elucidate",
+      "definition": "make something clear by explaining it",
+      "sentence": "The economist used several charts to _____ the relationship between inflation and unemployment.",
+      "correctAnswer": "elucidate",
+      "options": ["elucidate", "corroborate", "synthesize", "postulate"]
+    },
+    {
+      "id": 13,
+      "word": "discern",
+      "definition": "recognize or distinguish mentally",
+      "sentence": "It took years of experience before the art dealer could _____ authentic Renaissance paintings from skilled reproductions.",
+      "correctAnswer": "discern",
+      "options": ["discern", "scrutinize", "extrapolate", "substantiate"]
+    },
+    {
+      "id": 14,
+      "word": "extrapolate",
+      "definition": "extend conclusions beyond what's directly stated",
+      "sentence": "Economists _____ future unemployment rates based on current hiring trends and consumer spending patterns.",
+      "correctAnswer": "extrapolate",
+      "options": ["extrapolate", "postulate", "synthesize", "discern"]
+    },
+    {
+      "id": 15,
+      "word": "postulate",
+      "definition": "suggest as a basis for reasoning",
+      "sentence": "The physicist _____ that dark matter exists based on gravitational effects observed in distant galaxies.",
+      "correctAnswer": "postulate",
+      "options": ["postulate", "extrapolate", "substantiate", "elucidate"]
+    },
+    {
+      "id": 16,
+      "word": "dogmatic",
+      "definition": "stubbornly sticking to beliefs without considering other views",
+      "sentence": "The professor's _____ refusal to acknowledge new research findings frustrated many of her colleagues.",
+      "correctAnswer": "dogmatic",
+      "options": ["dogmatic", "skeptical", "pragmatic", "resilient"]
+    },
+    {
+      "id": 17,
+      "word": "skeptical",
+      "definition": "having doubts, not easily convinced",
+      "sentence": "Investors remained _____ of the startup's revenue projections despite the enthusiastic pitch.",
+      "correctAnswer": "skeptical",
+      "options": ["skeptical", "dogmatic", "impartial", "tenacious"]
+    },
+    {
+      "id": 18,
+      "word": "impartial",
+      "definition": "fair and unbiased",
+      "sentence": "The mediator maintained an _____ stance throughout the negotiations between the union and management.",
+      "correctAnswer": "impartial",
+      "options": ["impartial", "candid", "pragmatic", "skeptical"]
+    },
+    {
+      "id": 19,
+      "word": "resilient",
+      "definition": "able to recover quickly from difficulties",
+      "sentence": "The community proved remarkably _____ after the hurricane, rebuilding homes and businesses within months.",
+      "correctAnswer": "resilient",
+      "options": ["resilient", "tenacious", "pragmatic", "meticulous"]
+    },
+    {
+      "id": 20,
+      "word": "tenacious",
+      "definition": "persistent and determined",
+      "sentence": "The journalist's _____ investigation eventually uncovered evidence of widespread corruption in city government.",
+      "correctAnswer": "tenacious",
+      "options": ["tenacious", "resilient", "meticulous", "skeptical"]
+    },
+    {
+      "id": 21,
+      "word": "undermine",
+      "definition": "gradually weaken or damage something",
+      "sentence": "Budget cuts continued to _____ the school district's ability to provide quality education.",
+      "correctAnswer": "undermine",
+      "options": ["undermine", "hinder", "mitigate", "impede"]
+    },
+    {
+      "id": 22,
+      "word": "denounce",
+      "definition": "publicly declare something to be wrong or evil",
+      "sentence": "Religious leaders gathered to _____ the government's discriminatory policies at a press conference.",
+      "correctAnswer": "denounce",
+      "options": ["denounce", "condemn", "disparage", "refute"]
+    },
+    {
+      "id": 23,
+      "word": "bolster",
+      "definition": "strengthen or support something",
+      "sentence": "The central bank lowered interest rates to _____ consumer confidence during the recession.",
+      "correctAnswer": "bolster",
+      "options": ["bolster", "fortify", "augment", "facilitate"]
+    },
+    {
+      "id": 24,
+      "word": "concede",
+      "definition": "admit that something is true after initially denying it",
+      "sentence": "After reviewing the data, the senator had to _____ that her opponent's economic plan had some merit.",
+      "correctAnswer": "concede",
+      "options": ["concede", "refute", "advocate", "denounce"]
+    },
+    {
+      "id": 25,
+      "word": "fortify",
+      "definition": "make something stronger or more secure",
+      "sentence": "The company plans to _____ its cybersecurity systems after last month's data breach.",
+      "correctAnswer": "fortify",
+      "options": ["fortify", "bolster", "augment", "facilitate"]
+    },
+    {
+      "id": 26,
+      "word": "facilitate",
+      "definition": "make an action or process easier",
+      "sentence": "The new highway system will _____ trade between the coastal cities and inland manufacturing centers.",
+      "correctAnswer": "facilitate",
+      "options": ["facilitate", "bolster", "augment", "mitigate"]
+    },
+    {
+      "id": 27,
+      "word": "mitigate",
+      "definition": "make something bad less severe",
+      "sentence": "Emergency responders worked to _____ the environmental damage caused by the chemical spill.",
+      "correctAnswer": "mitigate",
+      "options": ["mitigate", "undermine", "hinder", "impede"]
+    },
+    {
+      "id": 28,
+      "word": "augment",
+      "definition": "make something greater by adding to it",
+      "sentence": "The university decided to _____ its scholarship fund by accepting donations from alumni.",
+      "correctAnswer": "augment",
+      "options": ["augment", "bolster", "fortify", "facilitate"]
+    },
+    {
+      "id": 29,
+      "word": "condemn",
+      "definition": "express complete disapproval of something",
+      "sentence": "International organizations swiftly moved to _____ the military's violent suppression of peaceful protesters.",
+      "correctAnswer": "condemn",
+      "options": ["condemn", "denounce", "disparage", "refute"]
+    },
+    {
+      "id": 30,
+      "word": "disparage",
+      "definition": "regard or represent as being of little worth",
+      "sentence": "The food critic's review seemed designed to _____ the restaurant rather than provide constructive feedback.",
+      "correctAnswer": "disparage",
+      "options": ["disparage", "denounce", "condemn", "undermine"]
+    },
+    {
+      "id": 31,
+      "word": "enigmatic",
+      "definition": "mysterious and difficult to understand",
+      "sentence": "The detective found the suspect's _____ behavior during questioning both fascinating and frustrating.",
+      "correctAnswer": "enigmatic",
+      "options": ["enigmatic", "ambiguous", "nuanced", "derivative"]
+    },
+    {
+      "id": 32,
+      "word": "derivative",
+      "definition": "imitative of someone else's work, lacking originality",
+      "sentence": "Critics dismissed the novel as _____, noting its obvious borrowing from several popular fantasy series.",
+      "correctAnswer": "derivative",
+      "options": ["derivative", "pragmatic", "enigmatic", "ambiguous"]
+    },
+    {
+      "id": 33,
+      "word": "hinder",
+      "definition": "create difficulties that slow progress",
+      "sentence": "Outdated regulations continue to _____ the development of renewable energy infrastructure.",
+      "correctAnswer": "hinder",
+      "options": ["hinder", "impede", "obstruct", "undermine"]
+    },
+    {
+      "id": 34,
+      "word": "obstruct",
+      "definition": "block or get in the way of something",
+      "sentence": "Protesters gathered to _____ traffic on the main highway as part of their demonstration.",
+      "correctAnswer": "obstruct",
+      "options": ["obstruct", "hinder", "impede", "undermine"]
+    },
+    {
+      "id": 35,
+      "word": "impede",
+      "definition": "delay or prevent progress by creating obstacles",
+      "sentence": "Lack of funding threatens to _____ the medical research team's groundbreaking cancer study.",
+      "correctAnswer": "impede",
+      "options": ["impede", "hinder", "obstruct", "mitigate"]
+    }
+  ],
+  "metadata": {
+    "totalQuestions": 35,
+    "lessons": {
+      "lesson1": [1, 2, 3, 4, 5],
+      "lesson2": [6, 7, 8, 9, 10],
+      "lesson3": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "lesson4": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+    },
+    "semanticGroups": {
+      "evidenceVerification": ["substantiate", "corroborate", "refute", "scrutinize"],
+      "strengthening": ["bolster", "fortify", "augment", "facilitate"],
+      "weakening": ["undermine", "hinder", "obstruct", "impede", "mitigate"],
+      "criticism": ["denounce", "condemn", "disparage", "refute"],
+      "descriptiveQualities": ["nuanced", "ambiguous", "enigmatic", "derivative", "candid"],
+      "thinking": ["synthesize", "extrapolate", "elucidate", "discern", "postulate"],
+      "attitudes": ["dogmatic", "skeptical", "impartial", "pragmatic"],
+      "determination": ["resilient", "tenacious", "meticulous"]
+    }
+  }
+}

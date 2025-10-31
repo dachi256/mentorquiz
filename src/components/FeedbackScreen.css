@@ -1,0 +1,142 @@
+.feedback-content {
+    max-width: 640px;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feedback-header {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    letter-spacing: -0.02em;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .feedback-header.correct {
+    color: #047857;
+    background-color: #d1fae5;
+    border: 1px solid #a7f3d0;
+  }
+  
+  .feedback-header.incorrect {
+    color: #dc2626;
+    background-color: #fee2e2;
+    border: 1px solid #fecaca;
+  }
+  
+  .answer-comparison {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    border: 1.5px solid #e5e7eb;
+    min-height: 96px;
+  }
+  
+  .answer-comparison p {
+    margin-bottom: 12px;
+    line-height: 1.5;
+  }
+  
+  .answer-comparison p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .label {
+    font-size: 12px;
+    color: #6b7280;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  .user-answer,
+  .correct-answer {
+    font-size: 15px;
+    color: #1e293b;
+    font-weight: 500;
+  }
+  
+  .user-answer {
+    color: #991b1b;
+  }
+  
+  .correct-answer {
+    color: #065f46;
+  }
+  
+  .correct-word {
+    font-size: 36px;
+    font-weight: 600;
+    color: #047857;
+    text-align: center;
+    padding: 32px;
+    margin-bottom: 32px;
+    letter-spacing: -0.02em;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .definition-box {
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    border: 1.5px solid #e5e7eb;
+    flex: 1;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .definition-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #6b7280;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  .definition-text {
+    font-size: 17px;
+    color: #1e293b;
+    line-height: 1.6;
+    font-weight: 450;
+  }
+  
+  @media (max-width: 768px) {
+    .feedback-header {
+      font-size: 18px;
+      height: 60px;
+      padding: 16px;
+    }
+    
+    .correct-word {
+      font-size: 28px;
+      height: 88px;
+      padding: 28px;
+    }
+    
+    .answer-comparison,
+    .definition-box {
+      padding: 20px;
+    }
+    
+    .definition-text {
+      font-size: 16px;
+    }
+  }

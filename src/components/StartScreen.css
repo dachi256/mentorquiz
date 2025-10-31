@@ -1,0 +1,81 @@
+.lesson-selection {
+    max-width: 440px;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkbox-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+  
+  .checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 20px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 160ms ease;
+    user-select: none;
+    background: white;
+    height: 56px;
+  }
+  
+  .checkbox-item:hover {
+    border-color: #cbd5e1;
+    background-color: #f8fafc;
+  }
+  
+  .checkbox-item input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #1e293b;
+    flex-shrink: 0;
+  }
+  
+  .checkbox-item span {
+    font-size: 15px;
+    color: #1e293b;
+    font-weight: 450;
+    letter-spacing: -0.01em;
+  }
+  
+  .checkbox-all {
+    margin-top: 12px;
+    border-color: #1e293b;
+    background-color: #f8fafc;
+    border-width: 2px;
+  }
+  
+  .checkbox-all:hover {
+    background-color: #f1f5f9;
+    border-color: #0f172a;
+  }
+  
+  .checkbox-all input[type="checkbox"]:checked {
+    accent-color: #0f172a;
+  }
+  
+  .question-count {
+    text-align: center;
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 24px;
+    font-weight: 500;
+    height: 20px;
+    letter-spacing: -0.01em;
+  }
+  
+  @media (max-width: 768px) {
+    .checkbox-item {
+      padding: 14px 18px;
+      height: 52px;
+    }
+  }

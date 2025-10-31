@@ -1,0 +1,121 @@
+.results-content {
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .score-box {
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    color: white;
+    padding: 48px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 16px rgba(30, 41, 59, 0.15);
+  }
+  
+  .score-text {
+    font-size: 17px;
+    margin-bottom: 12px;
+    opacity: 0.92;
+    font-weight: 450;
+    letter-spacing: -0.01em;
+  }
+  
+  .percentage {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.03em;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+  }
+  
+  .missed-section {
+    margin-bottom: 40px;
+  }
+  
+  .missed-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .missed-item {
+    background-color: #ffffff;
+    border: 1.5px solid #e5e7eb;
+    padding: 24px;
+    border-radius: 8px;
+    transition: all 160ms ease;
+  }
+  
+  .missed-item:hover {
+    border-color: #d1d5db;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+  
+  .missed-word {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 12px;
+    letter-spacing: -0.01em;
+  }
+  
+  .missed-sentence {
+    font-size: 15px;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  
+  .missed-answers {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .wrong-answer {
+    color: #991b1b;
+  }
+  
+  .right-answer {
+    color: #065f46;
+    font-weight: 600;
+  }
+  
+  .results-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .score-box {
+      padding: 40px 32px;
+    }
+    
+    .percentage {
+      font-size: 48px;
+    }
+    
+    .missed-item {
+      padding: 20px;
+    }
+    
+    .missed-word {
+      font-size: 16px;
+    }
+    
+    .missed-sentence {
+      font-size: 14px;
+    }
+  }
