@@ -1,89 +1,73 @@
-import { useState } from 'react';
-import StartScreen from './components/StartScreen';
-import QuizScreen from './components/QuizScreen';
-import FeedbackScreen from './components/FeedbackScreen';
-import ResultsScreen from './components/ResultsScreen';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { AuthProvider, useAuth } from './context/AuthContext';
+import LoginPage from './pages/LoginPage';
+import DashboardPage from './pages/DashboardPage';
+import QuizPage from './pages/QuizPage';
 import './App.css';
 
-function App() {
-  const [screen, setScreen] = useState('start');
-  const [questions, setQuestions] = useState([]);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [userAnswers, setUserAnswers] = useState([]);
-  const [currentAnswer, setCurrentAnswer] = useState(null);
+// Protected Route component
+function ProtectedRoute({ children }) {
+  const { user, loading } = useAuth();
 
-  const startQuiz = (quizQuestions) => {
-    setQuestions(quizQuestions);
-    setCurrentQuestionIndex(0);
-    setUserAnswers([]);
-    setCurrentAnswer(null);
-    setScreen('quiz');
-  };
+  if (loading) {
+    return (
+      <div className="container">
+        <p style={{ textAlign: 'center', marginTop: '50px' }}>Loading...</p>
+      </div>
+    );
+  }
 
-  const submitAnswer = (answer) => {
-    setCurrentAnswer(answer);
-    setScreen('feedback');
-  };
+  if (!user) {
+    return <Navigate to="/login" replace />;
+  }
 
-  const nextQuestion = () => {
-    const newAnswers = [...userAnswers, currentAnswer];
-    setUserAnswers(newAnswers);
-    
-    if (currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-      setCurrentAnswer(null);
-      setScreen('quiz');
-    } else {
-      setScreen('results');
-    }
-  };
+  return children;
+}
 
-  const restartQuiz = () => {
-    setScreen('start');
-    setQuestions([]);
-    setCurrentQuestionIndex(0);
-    setUserAnswers([]);
-    setCurrentAnswer(null);
-  };
-
-  const retryMissed = (missedQuestions) => {
-    setQuestions(missedQuestions);
-    setCurrentQuestionIndex(0);
-    setUserAnswers([]);
-    setCurrentAnswer(null);
-    setScreen('quiz');
-  };
-
+// App Router component (needs to be inside AuthProvider)
+function AppRouter() {
   return (
-    <div className="app">
-      {screen === 'start' && <StartScreen onStart={startQuiz} />}
-      
-      {screen === 'quiz' && (
-        <QuizScreen
-          question={questions[currentQuestionIndex]}
-          questionNumber={currentQuestionIndex + 1}
-          totalQuestions={questions.length}
-          onSubmit={submitAnswer}
-        />
-      )}
-      
-      {screen === 'feedback' && (
-        <FeedbackScreen
-          question={questions[currentQuestionIndex]}
-          userAnswer={currentAnswer}
-          onNext={nextQuestion}
-        />
-      )}
-      
-      {screen === 'results' && (
-        <ResultsScreen
-          questions={questions}
-          userAnswers={userAnswers}
-          onRestart={restartQuiz}
-          onRetryMissed={retryMissed}
-        />
-      )}
-    </div>
+    <Routes>
+      <Route path="/login" element={<LoginPage />} />
+      <Route
+        path="/"
+        element={
+          <ProtectedRoute>
+            <DashboardPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/quiz"
+        element={
+          <ProtectedRoute>
+            <QuizPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/quiz/:attemptId"
+        element={
+          <ProtectedRoute>
+            <QuizPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
+  );
+}
+
+// Main App component
+function App() {
+  return (
+    <BrowserRouter>
+      <AuthProvider>
+        <div className="app">
+          <AppRouter />
+        </div>
+      </AuthProvider>
+    </BrowserRouter>
   );
 }
 

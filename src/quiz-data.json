@@ -279,25 +279,107 @@
       "sentence": "Lack of funding threatens to _____ the medical research team's groundbreaking cancer study.",
       "correctAnswer": "impede",
       "options": ["impede", "hinder", "obstruct", "mitigate"]
+    },
+    {
+      "id": 36,
+      "word": "exacerbate",
+      "definition": "make a problem or bad situation worse",
+      "sentence": "The politician's aggressive comments served to _____ the tension between the two nations rather than resolve it.",
+      "correctAnswer": "exacerbate",
+      "options": ["exacerbate", "alleviate", "mitigate", "elucidate"]
+    },
+    {
+      "id": 37,
+      "word": "benevolent",
+      "definition": "well meaning and kindly",
+      "sentence": "The _____ donor preferred to remain anonymous while giving millions to the children's hospital.",
+      "correctAnswer": "benevolent",
+      "options": ["benevolent", "malevolent", "candid", "dogmatic"]
+    },
+    {
+      "id": 38,
+      "word": "deferential",
+      "definition": "showing humble submission and respect",
+      "sentence": "The young intern was always _____ to the senior partners, listening carefully to their advice without interruption.",
+      "correctAnswer": "deferential",
+      "options": ["deferential", "pragmatic", "tenacious", "skeptical"]
+    },
+    {
+      "id": 39,
+      "word": "egregious",
+      "definition": "outstandingly bad; shocking",
+      "sentence": "The auditor found several _____ errors in the accounting records that could not be dismissed as simple mistakes.",
+      "correctAnswer": "egregious",
+      "options": ["egregious", "meticulous", "nuanced", "impartial"]
+    },
+    {
+      "id": 40,
+      "word": "galvanize",
+      "definition": "shock or excite someone into taking action",
+      "sentence": "The inspiring speech helped to _____ the community into cleaning up the neglected local park.",
+      "correctAnswer": "galvanize",
+      "options": ["galvanize", "hinder", "impede", "postulate"]
+    },
+    {
+      "id": 41,
+      "word": "inept",
+      "definition": "having or showing no skill; clumsy",
+      "sentence": "The _____ handling of the public relations crisis led to a sharp drop in the company's stock value.",
+      "correctAnswer": "inept",
+      "options": ["inept", "astute", "meticulous", "pragmatic"]
+    },
+    {
+      "id": 42,
+      "word": "lament",
+      "definition": "express regret or disappointment over something",
+      "sentence": "Historians often _____ the loss of ancient texts that were destroyed during the burning of the library.",
+      "correctAnswer": "lament",
+      "options": ["lament", "advocate", "corroborate", "bolster"]
+    },
+    {
+      "id": 43,
+      "word": "malleable",
+      "definition": "easily influenced; pliable",
+      "sentence": "Human memory is surprisingly _____; it can be significantly altered by suggestion and the passage of time.",
+      "correctAnswer": "malleable",
+      "options": ["malleable", "dogmatic", "rigid", "obsolete"]
+    },
+    {
+      "id": 44,
+      "word": "obsolete",
+      "definition": "no longer produced or used; out of date",
+      "sentence": "Rapid technological advancements have made flip phones largely _____ in today's smartphone market.",
+      "correctAnswer": "obsolete",
+      "options": ["obsolete", "ubiquitous", "innovative", "derivative"]
+    },
+    {
+      "id": 45,
+      "word": "ubiquitous",
+      "definition": "present, appearing, or found everywhere",
+      "sentence": "Coffee shops have become _____ in the city center, with one appearing on nearly every corner.",
+      "correctAnswer": "ubiquitous",
+      "options": ["ubiquitous", "enigmatic", "scarce", "impartial"]
     }
   ],
   "metadata": {
-    "totalQuestions": 35,
+    "totalQuestions": 45,
     "lessons": {
       "lesson1": [1, 2, 3, 4, 5],
       "lesson2": [6, 7, 8, 9, 10],
       "lesson3": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
-      "lesson4": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+      "lesson4": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+      "lesson5": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
     },
     "semanticGroups": {
       "evidenceVerification": ["substantiate", "corroborate", "refute", "scrutinize"],
-      "strengthening": ["bolster", "fortify", "augment", "facilitate"],
-      "weakening": ["undermine", "hinder", "obstruct", "impede", "mitigate"],
-      "criticism": ["denounce", "condemn", "disparage", "refute"],
-      "descriptiveQualities": ["nuanced", "ambiguous", "enigmatic", "derivative", "candid"],
+      "strengthening": ["bolster", "fortify", "augment", "facilitate", "galvanize"],
+      "weakening": ["undermine", "hinder", "obstruct", "impede", "mitigate", "exacerbate"],
+      "criticism": ["denounce", "condemn", "disparage", "refute", "lament"],
+      "descriptiveQualities": ["nuanced", "ambiguous", "enigmatic", "derivative", "candid", "egregious", "ubiquitous", "obsolete"],
       "thinking": ["synthesize", "extrapolate", "elucidate", "discern", "postulate"],
-      "attitudes": ["dogmatic", "skeptical", "impartial", "pragmatic"],
-      "determination": ["resilient", "tenacious", "meticulous"]
+      "attitudes": ["dogmatic", "skeptical", "impartial", "pragmatic", "deferential", "benevolent"],
+      "determination": ["resilient", "tenacious", "meticulous"],
+      "flexibility": ["malleable", "inept"]
     }
   }
 }

@@ -1,0 +1,24 @@
+--- Folder Layout ---
+[.git] (...)
+.gitignore
+index.html
+[node_modules] (...)
+package-lock.json
+package.json
+README.md
+[src]
+    ├── App.css
+    ├── App.jsx
+    ├── [components]
+        ├── FeedbackScreen.css
+        ├── FeedbackScreen.jsx
+        ├── QuizScreen.css
+        ├── QuizScreen.jsx
+        ├── ResultsScreen.css
+        ├── ResultsScreen.jsx
+        ├── StartScreen.css
+        └── StartScreen.jsx
+    ├── index.css
+    ├── main.jsx
+    └── quiz-data.json
+vite.config.js

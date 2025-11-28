@@ -56,12 +56,182 @@
     background-color: #cbd5e1;
   }
   
-  @media (max-width: 768px) {
-    .container {
-      padding: 32px 24px;
-    }
-    
-    .title {
-      font-size: 24px;
-    }
+@media (max-width: 768px) {
+  .container {
+    padding: 32px 24px;
   }
+  
+  .title {
+    font-size: 24px;
+  }
+}
+
+/* --- New Dashboard Styles --- */
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.dashboard-title-group h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #0f172a;
+}
+
+.dashboard-subtitle {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.logout-btn {
+  background-color: transparent;
+  color: #64748b;
+  border: 1px solid #cbd5e1;
+  padding: 8px 16px;
+  font-size: 14px;
+  width: auto; /* Prevents it from stretching */
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.logout-btn:hover {
+  background-color: #f1f5f9;
+  color: #ef4444; /* Red on hover to indicate exit */
+  border-color: #ef4444;
+}
+
+.start-quiz-card {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-quiz-card h2 {
+  font-size: 20px;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+.start-quiz-card p {
+  color: #3b82f6;
+  margin-bottom: 24px;
+  font-size: 15px;
+}
+
+.start-btn-primary {
+  background-color: #2563eb;
+  color: white;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
+  transition: transform 0.2s, background-color 0.2s;
+  width: auto;
+}
+
+.start-btn-primary:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+/* --- Admin Filter Styles --- */
+.filter-bar {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  background: white; /* Changed from gray to white */
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #e2e8f0; /* Matches card borders */
+  align-items: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); /* Subtle lift */
+}
+
+.search-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid #e2e8f0; /* Thicker border to match theme */
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.2s ease;
+  color: #1e293b;
+  background-color: #f8fafc;
+}
+
+.search-input:focus {
+  border-color: #3b82f6;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.status-select {
+  /* 1. Remove default browser styling */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  /* 2. Match the text input styling exactly */
+  padding: 12px 16px;
+  padding-right: 40px; /* Extra padding on right for the arrow */
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 15px;
+  min-width: 180px;
+  cursor: pointer;
+  outline: none;
+  color: #1e293b;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  
+  /* 3. Add background color logic */
+  background-color: #f8fafc; /* Matches input default */
+
+  /* 4. Custom SVG Arrow (The magic part) */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b'%3e%3cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3e%3c/path%3e%3c/svg%3e");
+  background-position: right 12px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.status-select:focus {
+  border-color: #3b82f6;
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.status-select:hover {
+  border-color: #cbd5e1;
+  background-color: white;
+}
+
+/* Responsive fix for mobile */
+@media (max-width: 600px) {
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 16px;
+  }
+  
+  .search-input, 
+  .status-select {
+    width: 100%;
+  }
+}
