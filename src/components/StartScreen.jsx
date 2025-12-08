@@ -15,6 +15,7 @@ function StartScreen({ onStart }) {
     { id: 'lesson3', name: 'Lesson 3', count: 10 },
     { id: 'lesson4', name: 'Lesson 4', count: 15 },
     { id: 'lesson5', name: 'Lesson 5', count: 10 },
+    { id: 'lesson6', name: 'Lesson 6', count: 10 },
   ];
 
   // Fetch progress on mount
@@ -42,10 +43,10 @@ function StartScreen({ onStart }) {
 
   const toggleLesson = (lessonId) => {
     if (lessonId === 'all') {
-      if (selectedLessons.length === 5) {
+      if (selectedLessons.length === 6) {
         setSelectedLessons([]);
       } else {
-        setSelectedLessons(['lesson1', 'lesson2', 'lesson3', 'lesson4', 'lesson5']);
+        setSelectedLessons(['lesson1', 'lesson2', 'lesson3', 'lesson4', 'lesson5', 'lesson6']);
       }
     } else {
       if (selectedLessons.includes(lessonId)) {
@@ -91,7 +92,7 @@ function StartScreen({ onStart }) {
     return sum + (lesson ? lesson.count : 0);
   }, 0);
 
-  const allSelected = selectedLessons.length === 5;
+  const allSelected = selectedLessons.length === 6;
 
   return (
     <div className="container">
@@ -137,7 +138,7 @@ function StartScreen({ onStart }) {
               checked={allSelected}
               onChange={() => toggleLesson('all')}
             />
-            <span>All Lessons (45 words)</span>
+            <span>All Lessons (55 words)</span>
           </label>
         </div>
         

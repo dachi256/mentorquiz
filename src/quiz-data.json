@@ -359,25 +359,106 @@
       "sentence": "Coffee shops have become _____ in the city center, with one appearing on nearly every corner.",
       "correctAnswer": "ubiquitous",
       "options": ["ubiquitous", "enigmatic", "scarce", "impartial"]
+    },
+    {
+      "id": 46,
+      "word": "anomalous",
+      "definition": "deviating from what is standard, normal, or expected",
+      "sentence": "The scientist's discovery was considered _____ because it contradicted all previous studies on the subject.",
+      "correctAnswer": "anomalous",
+      "options": ["anomalous", "ubiquitous", "deferential", "pragmatic"]
+    },
+    {
+      "id": 47,
+      "word": "ephemeral",
+      "definition": "lasting for a very short time",
+      "sentence": "The beauty of the sunset was _____, fading into darkness within minutes.",
+      "correctAnswer": "ephemeral",
+      "options": ["ephemeral", "resilient", "tenacious", "meticulous"]
+    },
+    {
+      "id": 48,
+      "word": "venerable",
+      "definition": "accorded a great deal of respect, especially because of age or wisdom",
+      "sentence": "The _____ professor was greeted with a standing ovation as he entered the lecture hall for his final class.",
+      "correctAnswer": "venerable",
+      "options": ["venerable", "inept", "egregious", "derivative"]
+    },
+    {
+      "id": 49,
+      "word": "surreptitious",
+      "definition": "kept secret, especially because it would not be approved of",
+      "sentence": "She cast a _____ glance at her watch, hoping the boring meeting would end soon.",
+      "correctAnswer": "surreptitious",
+      "options": ["surreptitious", "candid", "benevolent", "dogmatic"]
+    },
+    {
+      "id": 50,
+      "word": "opulent",
+      "definition": "ostentatiously rich and luxurious or lavish",
+      "sentence": "The billionaire's _____ mansion featured gold-plated faucets and a private cinema.",
+      "correctAnswer": "opulent",
+      "options": ["opulent", "prosaic", "obsolete", "malleable"]
+    },
+    {
+      "id": 51,
+      "word": "perfidious",
+      "definition": "deceitful and untrustworthy",
+      "sentence": "The general was betrayed by a _____ ally who sold military secrets to the enemy.",
+      "correctAnswer": "perfidious",
+      "options": ["perfidious", "benevolent", "candid", "impartial"]
+    },
+    {
+      "id": 52,
+      "word": "prosaic",
+      "definition": "lacking poetic beauty; commonplace or dull",
+      "sentence": "After his exciting travels, he found it difficult to return to the _____ routine of daily office work.",
+      "correctAnswer": "prosaic",
+      "options": ["prosaic", "enigmatic", "opulent", "anomalous"]
+    },
+    {
+      "id": 53,
+      "word": "spurious",
+      "definition": "not being what it purports to be; false or fake",
+      "sentence": "The politician dismissed the corruption allegations as _____ claims invented by his opponents.",
+      "correctAnswer": "spurious",
+      "options": ["spurious", "venerable", "substantiated", "pragmatic"]
+    },
+    {
+      "id": 54,
+      "word": "querulous",
+      "definition": "complaining in a petulant or whining manner",
+      "sentence": "The long flight made the passengers _____, and they snapped at the flight attendants over minor issues.",
+      "correctAnswer": "querulous",
+      "options": ["querulous", "benevolent", "resilient", "deferential"]
+    },
+    {
+      "id": 55,
+      "word": "reclusive",
+      "definition": "avoiding the company of other people; solitary",
+      "sentence": "The famous author became increasingly _____ in her later years, refusing all interviews and public appearances.",
+      "correctAnswer": "reclusive",
+      "options": ["reclusive", "ubiquitous", "candid", "tenacious"]
     }
   ],
   "metadata": {
-    "totalQuestions": 45,
+    "totalQuestions": 55,
     "lessons": {
       "lesson1": [1, 2, 3, 4, 5],
       "lesson2": [6, 7, 8, 9, 10],
       "lesson3": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
       "lesson4": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
-      "lesson5": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
+      "lesson5": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+      "lesson6": [46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
     },
     "semanticGroups": {
-      "evidenceVerification": ["substantiate", "corroborate", "refute", "scrutinize"],
+      "evidenceVerification": ["substantiate", "corroborate", "refute", "scrutinize", "spurious"],
       "strengthening": ["bolster", "fortify", "augment", "facilitate", "galvanize"],
       "weakening": ["undermine", "hinder", "obstruct", "impede", "mitigate", "exacerbate"],
-      "criticism": ["denounce", "condemn", "disparage", "refute", "lament"],
-      "descriptiveQualities": ["nuanced", "ambiguous", "enigmatic", "derivative", "candid", "egregious", "ubiquitous", "obsolete"],
+      "criticism": ["denounce", "condemn", "disparage", "refute", "lament", "querulous"],
+      "descriptiveQualities": ["nuanced", "ambiguous", "enigmatic", "derivative", "candid", "egregious", "ubiquitous", "obsolete", "anomalous", "ephemeral", "opulent", "prosaic"],
       "thinking": ["synthesize", "extrapolate", "elucidate", "discern", "postulate"],
-      "attitudes": ["dogmatic", "skeptical", "impartial", "pragmatic", "deferential", "benevolent"],
+      "attitudes": ["dogmatic", "skeptical", "impartial", "pragmatic", "deferential", "benevolent", "perfidious", "reclusive", "venerable", "surreptitious"],
       "determination": ["resilient", "tenacious", "meticulous"],
       "flexibility": ["malleable", "inept"]
     }

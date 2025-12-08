@@ -203,7 +203,7 @@
   /* 3. Add background color logic */
   background-color: #f8fafc; /* Matches input default */
 
-  /* 4. Custom SVG Arrow (The magic part) */
+  /* 4. Custom SVG Arrow  */
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b'%3e%3cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3e%3c/path%3e%3c/svg%3e");
   background-position: right 12px center;
   background-repeat: no-repeat;

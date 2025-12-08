@@ -130,7 +130,7 @@ function QuizPage() {
           (answer, index) => answer === questions[index].correctAnswer
         ).length;
 
-        // --- NEW: CHECK FOR MASTERY (100% Accuracy) ---
+  
         const isPerfectScore = correctCount === questions.length;
         
         // We only unlock if they took a SINGLE lesson (not a mixed bag)
@@ -156,7 +156,7 @@ function QuizPage() {
               .eq('id', user.id);
           }
         }
-        // --- END NEW LOGIC ---
+
 
         await supabase
           .from('quiz_attempts')
