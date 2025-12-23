@@ -439,28 +439,110 @@
       "sentence": "The famous author became increasingly _____ in her later years, refusing all interviews and public appearances.",
       "correctAnswer": "reclusive",
       "options": ["reclusive", "ubiquitous", "candid", "tenacious"]
+    },
+    {
+      "id": 56,
+      "word": "demur",
+      "definition": "raise doubts or objections; show reluctance",
+      "sentence": "While the board agreed with the overall plan, they _____ at the high cost of the proposed marketing campaign.",
+      "correctAnswer": "demur",
+      "options": ["demur", "foment", "repudiate", "bolster"]
+    },
+    {
+      "id": 57,
+      "word": "inveterate",
+      "definition": "having a particular habit that is long-established and unlikely to change",
+      "sentence": "As an _____ traveler, he could never stay in one city for more than a few months before booking his next flight.",
+      "correctAnswer": "inveterate",
+      "options": ["inveterate", "ephemeral", "pragmatic", "garrulous"]
+    },
+    {
+      "id": 58,
+      "word": "pithy",
+      "definition": "concise and forcefully expressive",
+      "sentence": "The governor's speech was remarkably _____, addressing the complex crisis in just five minutes of clear, powerful language.",
+      "correctAnswer": "pithy",
+      "options": ["pithy", "garrulous", "prosaic", "ambiguous"]
+    },
+    {
+      "id": 59,
+      "word": "tantamount",
+      "definition": "equivalent in seriousness to; virtually the same as",
+      "sentence": "In the eyes of the strict general, disobeying a direct order was _____ to treason.",
+      "correctAnswer": "tantamount",
+      "options": ["tantamount", "spurious", "anomalous", "derivative"]
+    },
+    {
+      "id": 60,
+      "word": "repudiate",
+      "definition": "refuse to accept or be associated with; deny the truth of",
+      "sentence": "The CEO issued a statement to _____ the rumors that the company was on the verge of bankruptcy.",
+      "correctAnswer": "repudiate",
+      "options": ["repudiate", "corroborate", "postulate", "demur"]
+    },
+    {
+      "id": 61,
+      "word": "abate",
+      "definition": "become less intense or widespread",
+      "sentence": "The residents waited for the storm to _____ before venturing out to assess the damage to their homes.",
+      "correctAnswer": "abate",
+      "options": ["abate", "foment", "exacerbate", "augment"]
+    },
+    {
+      "id": 62,
+      "word": "foment",
+      "definition": "instigate or stir up (an undesirable or violent sentiment or course of action)",
+      "sentence": "The rebels used social media to _____ unrest among the dissatisfied citizens.",
+      "correctAnswer": "foment",
+      "options": ["foment", "abate", "mitigate", "demur"]
+    },
+    {
+      "id": 63,
+      "word": "garrulous",
+      "definition": "excessively talkative, especially on trivial matters",
+      "sentence": "The _____ passenger in the seat next to me talked about his cat for the entire four-hour flight.",
+      "correctAnswer": "garrulous",
+      "options": ["garrulous", "pithy", "reclusive", "deferential"]
+    },
+    {
+      "id": 64,
+      "word": "assiduous",
+      "definition": "showing great care and perseverance",
+      "sentence": "The detective's _____ research eventually uncovered the single clue that solved the cold case.",
+      "correctAnswer": "assiduous",
+      "options": ["assiduous", "inept", "perfidious", "indifferent"]
+    },
+    {
+      "id": 65,
+      "word": "superfluous",
+      "definition": "unnecessary, especially through being more than enough",
+      "sentence": "The editor removed the _____ adjectives from the article to make the writing tighter and more impactful.",
+      "correctAnswer": "superfluous",
+      "options": ["superfluous", "pithy", "ubiquitous", "scrupulous"]
     }
   ],
   "metadata": {
-    "totalQuestions": 55,
+    "totalQuestions": 65,
     "lessons": {
       "lesson1": [1, 2, 3, 4, 5],
       "lesson2": [6, 7, 8, 9, 10],
       "lesson3": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
       "lesson4": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
       "lesson5": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
-      "lesson6": [46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+      "lesson6": [46, 47, 48, 49, 50, 51, 52, 53, 54, 55],
+      "lesson7": [56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
     },
     "semanticGroups": {
-      "evidenceVerification": ["substantiate", "corroborate", "refute", "scrutinize", "spurious"],
+      "evidenceVerification": ["substantiate", "corroborate", "refute", "scrutinize", "spurious", "repudiate"],
       "strengthening": ["bolster", "fortify", "augment", "facilitate", "galvanize"],
-      "weakening": ["undermine", "hinder", "obstruct", "impede", "mitigate", "exacerbate"],
-      "criticism": ["denounce", "condemn", "disparage", "refute", "lament", "querulous"],
-      "descriptiveQualities": ["nuanced", "ambiguous", "enigmatic", "derivative", "candid", "egregious", "ubiquitous", "obsolete", "anomalous", "ephemeral", "opulent", "prosaic"],
-      "thinking": ["synthesize", "extrapolate", "elucidate", "discern", "postulate"],
+      "weakening": ["undermine", "hinder", "obstruct", "impede", "mitigate", "exacerbate", "abate"],
+      "criticism": ["denounce", "condemn", "disparage", "refute", "lament", "querulous", "demur"],
+      "descriptiveQualities": ["nuanced", "ambiguous", "enigmatic", "derivative", "candid", "egregious", "ubiquitous", "obsolete", "anomalous", "ephemeral", "opulent", "prosaic", "inveterate", "superfluous"],
+      "thinking": ["synthesize", "extrapolate", "elucidate", "discern", "postulate", "tantamount"],
       "attitudes": ["dogmatic", "skeptical", "impartial", "pragmatic", "deferential", "benevolent", "perfidious", "reclusive", "venerable", "surreptitious"],
-      "determination": ["resilient", "tenacious", "meticulous"],
-      "flexibility": ["malleable", "inept"]
+      "determination": ["resilient", "tenacious", "meticulous", "assiduous"],
+      "flexibility": ["malleable", "inept"],
+      "communication": ["pithy", "garrulous", "foment"]
     }
   }
 }

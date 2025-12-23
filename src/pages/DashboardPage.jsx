@@ -313,7 +313,7 @@ function DashboardPage() {
     );
   }
 
-  // STUDENT VIEW (existing code)
+  // STUDENT VIEW
   return (
     <div className="container">
       <div style={{ maxWidth: '900px', margin: '0 auto', padding: '20px' }}>
