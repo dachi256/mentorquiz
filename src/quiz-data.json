@@ -519,10 +519,90 @@
       "sentence": "The editor removed the _____ adjectives from the article to make the writing tighter and more impactful.",
       "correctAnswer": "superfluous",
       "options": ["superfluous", "pithy", "ubiquitous", "scrupulous"]
+    },
+    {
+      "id": 66,
+      "word": "impetuous",
+      "definition": "acting or done quickly and without thought or care",
+      "sentence": "The _____ decision to quit his job left him with no income and plenty of regret.",
+      "correctAnswer": "impetuous",
+      "options": ["impetuous", "prudent", "cautious", "deliberate"]
+    },
+    {
+      "id": 67,
+      "word": "pretentious",
+      "definition": "attempting to impress by affecting greater importance than is actually possessed",
+      "sentence": "The critic dismissed the movie as _____, noting it tried too hard to be deep without having any real substance.",
+      "correctAnswer": "pretentious",
+      "options": ["pretentious", "humble", "modest", "authentic"]
+    },
+    {
+      "id": 68,
+      "word": "reverence",
+      "definition": "deep respect for someone or something",
+      "sentence": "The soldiers spoke of their commanding officer with great _____ because of his bravery.",
+      "correctAnswer": "reverence",
+      "options": ["reverence", "disdain", "scorn", "apathy"]
+    },
+    {
+      "id": 69,
+      "word": "sagacity",
+      "definition": "the quality of having or showing keen mental discernment and good judgment",
+      "sentence": "The old woman's _____ was legendary; people traveled miles to seek her wise counsel.",
+      "correctAnswer": "sagacity",
+      "options": ["sagacity", "ignorance", "folly", "stupidity"]
+    },
+    {
+      "id": 70,
+      "word": "transient",
+      "definition": "lasting only for a short time; impermanent",
+      "sentence": "The storm was _____, passing through the town in less than twenty minutes.",
+      "correctAnswer": "transient",
+      "options": ["transient", "eternal", "permanent", "enduring"]
+    },
+    {
+      "id": 71,
+      "word": "vindicate",
+      "definition": "clear (someone) of blame or suspicion",
+      "sentence": "New DNA evidence helped to _____ the prisoner who had insisted on his innocence for years.",
+      "correctAnswer": "vindicate",
+      "options": ["vindicate", "incriminate", "condemn", "accuse"]
+    },
+    {
+      "id": 72,
+      "word": "wary",
+      "definition": "feeling or showing caution about possible dangers or problems",
+      "sentence": "After being burned once, the investor was _____ of schemes that promised quick riches.",
+      "correctAnswer": "wary",
+      "options": ["wary", "reckless", "naive", "trusting"]
+    },
+    {
+      "id": 73,
+      "word": "zealous",
+      "definition": "having or showing great energy or enthusiasm in pursuit of a cause",
+      "sentence": "The _____ volunteer spent every weekend cleaning up the park, rain or shine.",
+      "correctAnswer": "zealous",
+      "options": ["zealous", "indifferent", "apathetic", "lethargic"]
+    },
+    {
+      "id": 74,
+      "word": "abstain",
+      "definition": "restrain oneself from doing or enjoying something",
+      "sentence": "The doctor advised the patient to _____ from sugary foods to improve his health.",
+      "correctAnswer": "abstain",
+      "options": ["abstain", "indulge", "partake", "consume"]
+    },
+    {
+      "id": 75,
+      "word": "cacophony",
+      "definition": "a harsh, discordant mixture of sounds",
+      "sentence": "As the orchestra tuned their instruments, a _____ of squeaks and honks filled the concert hall.",
+      "correctAnswer": "cacophony",
+      "options": ["cacophony", "harmony", "melody", "silence"]
     }
   ],
   "metadata": {
-    "totalQuestions": 65,
+    "totalQuestions": 75,
     "lessons": {
       "lesson1": [1, 2, 3, 4, 5],
       "lesson2": [6, 7, 8, 9, 10],
@@ -530,7 +610,8 @@
       "lesson4": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
       "lesson5": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
       "lesson6": [46, 47, 48, 49, 50, 51, 52, 53, 54, 55],
-      "lesson7": [56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
+      "lesson7": [56, 57, 58, 59, 60, 61, 62, 63, 64, 65],
+      "lesson8": [66, 67, 68, 69, 70, 71, 72, 73, 74, 75]
     },
     "semanticGroups": {
       "evidenceVerification": ["substantiate", "corroborate", "refute", "scrutinize", "spurious", "repudiate"],

@@ -17,6 +17,7 @@ function StartScreen({ onStart }) {
     { id: 'lesson5', name: 'Lesson 5', count: 10 },
     { id: 'lesson6', name: 'Lesson 6', count: 10 },
     { id: 'lesson7', name: 'Lesson 7', count: 10 },
+    { id: 'lesson8', name: 'Lesson 8', count: 10 },
   ];
 
   // Fetch progress on mount
