@@ -44,6 +44,20 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
+  // --- NEW: Add Sign Up Function ---
+  const signUp = async (email, password) => {
+    try {
+      const { data, error } = await supabase.auth.signUp({
+        email,
+        password,
+      });
+      if (error) throw error;
+      return { data, error: null };
+    } catch (error) {
+      return { data: null, error };
+    }
+  };
+
   const signOut = async () => {
     try {
       const { error } = await supabase.auth.signOut();
@@ -58,6 +72,7 @@ export const AuthProvider = ({ children }) => {
     user,
     loading,
     signIn,
+    signUp, // <--- Export the new function
     signOut,
   };
 
